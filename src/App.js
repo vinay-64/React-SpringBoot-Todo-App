@@ -7,6 +7,11 @@ export default function App() {
       <h1>Project Starter</h1>
       <p>Start editing to see some magic happen :)</p>
       <p>Yes Magic Happened</p>
+      <FirstComponent></FirstComponent>
     </div>
   );
+}
+
+function FirstComponent() {
+  return <p>My First Component.</p>;
 }
